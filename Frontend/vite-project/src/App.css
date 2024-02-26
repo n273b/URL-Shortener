@@ -5,6 +5,8 @@
   text-align: center;
 }
 
+/************ Input Container css ************/
+
 .inputContainer div{
   display: flex;
   margin-bottom: 2rem;
@@ -19,4 +21,18 @@
 .inputContainer button{
   height: 3rem;
   text-transform: uppercase;
+}
+
+/************ Result Container css ************/
+
+.result{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.result button{
+  height: 2.5rem;
+  font-size: 0.85rem;
 }
