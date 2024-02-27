@@ -32,6 +32,10 @@
   padding: 0.5rem 1rem;
 }
 
+.result p{
+  color: tomato;
+}
+
 .result button{
   height: 2.5rem;
   font-size: 0.85rem;
