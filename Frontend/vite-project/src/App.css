@@ -12,6 +12,10 @@
   margin-bottom: 2rem;
 }
 
+.inputContainer h1 span{
+  color: #646cff;
+}
+
 .inputContainer input{
   width: 100%;
   padding: 0.5rem 0.2rem 0.5rem 0;
