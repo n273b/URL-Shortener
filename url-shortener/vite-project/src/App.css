@@ -7,7 +7,7 @@
 
 /************ Input Container css ************/
 
-.inputContainer div{
+.inputContainer form{
   display: flex;
   margin-bottom: 2rem;
 }

@@ -12,15 +12,18 @@ const InputShortener = ({ setInputValue }) => {
   return (
     <div className='inputContainer'>
         <h1>URL <span>Shortener</span></h1>
-        <div>
+        <form action='/shortUrls' method='POST'>
             <input 
-              type="text" 
+              type="url"
+              name='fullURL'
+              id='fullURL'
               placeholder='Paste a link to shorten it'
+              required
               value={value}
               onChange={e => setValue(e.target.value)}
             />
-            <button onClick={handleClick}>Shorten</button>
-        </div>
+            <button type='submit' onClick={handleClick}>Shorten</button>
+        </form>
     </div>
   )
 }
