@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "vite dev",
     "devStart": "nodemon server.js",
@@ -15,8 +15,7 @@
     "express": "^4.18.3",
     "mongoose": "^8.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "shortid": "^2.2.16"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
