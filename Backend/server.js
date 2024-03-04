@@ -15,4 +15,6 @@ app.get('/', (req, res) => {
     res.sendFile('./url-shortener/vite-project/src/main.jsx', { root: __dirname })
 })
 
-app.listen(process.env.PORT || 5000)
+app.listen(process.env.PORT || 5000, () => {
+    console.log(`Server has started in port: ${PORT}`)
+})
